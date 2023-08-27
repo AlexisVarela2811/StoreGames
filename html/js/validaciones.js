@@ -20,6 +20,8 @@ formulario.addEventListener('submit', e => {
     console.log('hola')
 });
 
+
+
 // mensaje error al click enviar y no esta formulario completo
 document.getElementById('btnEnviar').addEventListener('click', () => {
 
@@ -32,6 +34,11 @@ document.getElementById('btnEnviar').addEventListener('click', () => {
         }, 5000)
     }
 })
+
+
+
+
+
 
 // boton limpiar
 document.getElementById('resetForm').addEventListener('click', () => {
